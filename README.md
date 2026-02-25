@@ -1,7 +1,5 @@
 # IMT 561 Streamlit Lab Starter
 
-This repository is intentionally incomplete. It is designed for a guided live build during lab and then extended during the in-class activity and follow-up assignment.
-
 ## Quickstart
 ```bash
 python -m venv .venv
@@ -10,13 +8,20 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## What you will do in the lab
-- Build a layout (tabs or 2 columns)
-- Add filters that modify a shared dataframe
-- Wire up at least 1 Plotly chart
-- Add metrics and additional views as an extension
+## Audience
+This Streamlit dashboard provides an interactive platform to analyze NYC 311 service request efficiency. By visualizing the response_time_days across various dimensions (borough, complaint type, and channel), the dashboard helps identify service bottlenecks and geographic trends in local responsiveness.
 
-## Submission (for students)
-- Streamlit deployed link
-- GitHub repo link
-- Short README describing audience + tasks
+## Target Audience
+The stakeholders for this dashboard will be City Administrators, Urban Data Researchers, and even NYC citizens to uncover the trends of 311 service requests response across different metrics and understand how submission channels (App, Phone, Web) impact the speed of city services.
+
+## Tasks
+Identify the median and distribution of response times to establish performance baselines.
+
+Compare service efficiency between the five boroughs to identify resource allocation needs.
+
+Identify extreme delays and understand the "long tail" of tickets.
+
+Drill down into specific complaint types or submission channels to see how services are performing in real-time.
+
+
+
